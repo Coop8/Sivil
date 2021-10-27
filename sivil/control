@@ -1,0 +1,9 @@
+Package: com.coopdev.sivil
+Name: Sivil
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Control the amount of blur within the Spotlight View!
+Maintainer: CoopDev
+Author: CoopDev
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
