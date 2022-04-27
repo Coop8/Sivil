@@ -49,5 +49,5 @@
   }
 @end
 
-//Code used from the link below
+//Code modified from the link below
 //https://github.com/LacertosusRepo/Preference-Cell-Examples/tree/main/Animated%20Title%20View

@@ -1,7 +1,7 @@
 #include "SivilController.h"
 #import <spawn.h> //Make sure to import this for respring to work
 
-#define tint [UIColor colorWithRed: 0.45 green: 0.43 blue: 0.77 alpha: 1.00] // choose the one you want, google how to convert rgb/hex to UIColor
+#define tint [UIColor colorWithRed: 0.45 green: 0.43 blue: 0.77 alpha: 1.00] //choose the one you want, google how to convert rgb/hex to UIColor
 
 
 @implementation SivilController
@@ -70,7 +70,7 @@
 
 }
 
-- (void)viewWillDisappear:(BOOL)animated { // reset everything back to it's original state, otherwise it'll affect all the navigation bars in the settings app
+- (void)viewWillDisappear:(BOOL)animated { //reset everything back to it's original state, otherwise it'll affect all the navigation bars in the settings app
 
     [super viewWillDisappear:animated];
 

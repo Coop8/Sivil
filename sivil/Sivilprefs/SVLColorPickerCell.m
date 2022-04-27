@@ -75,7 +75,6 @@
 #pragma mark - UIColorPickerViewControllerDelegate Methods
 
    //When the color picker view window it has been dismissed. We then we save the hex, update the indicator, and update the subtitle.
-   //Sidenote: UIColorPickerViewController returns a slightly different UIColor than it is given with selectedColor. Why Apple?
  -(void)colorPickerViewControllerDidSelectColor:(UIColorPickerViewController *)colorPicker {
     {
      _currentColor = colorPicker.selectedColor;
@@ -162,5 +161,5 @@
  }
 @end
 
-//Code used from the link below
+//Code modified from the link below
 //https://github.com/LacertosusRepo/Preference-Cell-Examples/tree/main/Color%20Picker%20Cell

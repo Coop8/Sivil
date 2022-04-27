@@ -5,7 +5,7 @@
   -(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)identifier specifier:(PSSpecifier *)specifier {
     self = [super initWithStyle:style reuseIdentifier:identifier specifier:specifier];
 
-    //set the on tint color of the switch using the properties from the specifier
+    //Set the on tint color of the switch using the properties from the specifier
     if(self) {
       NSString *hexString = ([specifier propertyForKey:@"switchColor"]) ?: @"#726ec4";
       float hexAlpha = ([[specifier propertyForKey:@"switchColorAlpha"] floatValue]) ?: 1.0;
@@ -15,7 +15,7 @@
     return self;
   }
 
-  //add method to convert hex to UIColor, notice we added this method to the cell's interface
+  //Add method to convert hex to UIColor
   //StackOverFlow - https://stackoverflow.com/a/12397366
   -(UIColor *)colorFromHex:(NSString *)hex withAlpha:(CGFloat)alpha {
     unsigned rgbValue = 0;

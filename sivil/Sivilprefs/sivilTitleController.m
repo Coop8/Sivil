@@ -90,5 +90,3 @@
 }
 
 @end
-
-//This title view is inspired by Dave Van Wijk's QuitAll tweak.

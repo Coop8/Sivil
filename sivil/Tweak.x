@@ -1,6 +1,6 @@
 #import "Tweak.h"
 
-@interface SBSearchBackdropView : UIView //Interfacing SBSearchBackdropView so it can inherit from UIView
+@interface SBSearchBackdropView : UIView
 @end
 
 @interface SPUIDefaults : UIView
@@ -34,7 +34,7 @@ UIColor * returnUIColor(NSString * realText) {
 
 %hook SBSearchBackdropView //Our hook
 
-  -(void)didMoveToWindow{ //Better to hook this method than layoutSubviews, we are hooking as the view. did. move. to. window.
+  -(void)didMoveToWindow{ //Better to hook this method than layoutSubviews
     %orig;
 
     NSDictionary *bundleDefaults = [[NSUserDefaults standardUserDefaults] persistentDomainForName:@"com.coopdev.sivilprefs"]; //Creating a dictionary for my preference keys
