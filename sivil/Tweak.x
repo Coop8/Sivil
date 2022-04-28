@@ -32,7 +32,7 @@ UIColor * returnUIColor(NSString * realText) {
 	return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
 
-%hook SBSearchBackdropView //Our hook
+%hook SBSearchBackdropView
 
   -(void)didMoveToWindow{ //Better to hook this method than layoutSubviews
     %orig;
