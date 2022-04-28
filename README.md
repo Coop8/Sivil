@@ -9,6 +9,8 @@ With Sivil you are able to:
  - Customize background color
  - Enable experimental iPad spotlight view
 ## 
+Sivil works on iOS 14. Sivil has not been tested on iOS 13 or below.
+##
 If you enjoy my work feel free to follow me on twitter: [@CoopDev8](https://twitter.com/CoopDev8)
 ## Credits
 I would like to thank [Lukii120](https://twitter.com/Lukii120) for their help in the project.
