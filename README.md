@@ -11,7 +11,7 @@ With Sivil you are able to:
 ## 
 Sivil works on iOS 14. Sivil has not been tested on iOS 13 or below.
 ##
-If you enjoy my work feel free to follow me on twitter: [@CoopDev8](https://twitter.com/CoopDev8)
+If you enjoy my work feel free to follow me on LinkedIn: [Cooper Rockwell](https://www.linkedin.com/in/cooper-rockwell-324888221/)
 ## Credits
 I would like to thank [Lukii120](https://twitter.com/Lukii120) for their help in the project.
 I would also like to thank [LacertosusDeus](https://twitter.com/LacertosusDeus) for their help with many preference cells.
